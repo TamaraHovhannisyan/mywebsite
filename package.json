@@ -2,6 +2,8 @@
   "name": "mysite",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://TamaraHovhannisyan.github.io/mywebsite",
+
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
