@@ -1,8 +1,5 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
-  basePath: "/mywebsite",
-  trailingSlash: true,
+const config = {
+  plugins: ["@tailwindcss/postcss"],
 };
 
-module.exports = nextConfig;
+export default config;
